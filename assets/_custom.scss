@@ -1,0 +1,10 @@
+.dev {
+  border: 1px dashed tomato;
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: theme('colors.gray.900');
+    @apply text-white;
+  }
+}
